@@ -92,7 +92,14 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: rotate2 1.5s linear infinite;
 }
+@keyframes rotate2 {
+    0%{transform: rotate(0deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(0deg);}
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
