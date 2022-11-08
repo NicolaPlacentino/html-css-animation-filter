@@ -136,7 +136,6 @@
 @keyframes ex12t{
     0%{left: 10%;}
     100%{left:55%;}
-
 }
 .ex-12-button:hover .ex-12-bottom-white{
     animation: ex12b 0.5s linear 2 alternate;
@@ -145,4 +144,27 @@
     0%{right: 20%;}
     100%{right:55%;}
 
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: ex13t 2s linear;
+}
+@keyframes ex13t{
+    0%{left: 10%; top: -10px;}
+    25%{left: calc(100% - 50px);  top: -10px;}
+    35%{left: calc(100% - 50px);  top: calc(100% - 10px);}
+    75%{left: -5%; top: calc(100% - 10px);}
+    95%{left: -5%;  top: -10px;}
+    100%{left: 10%; top: -10px;}
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: ex13b 2s linear;
+}
+@keyframes ex13b{
+    0%{right: 20%; bottom: -10px;}
+    25%{right: calc(100% - 50px); bottom: -10px;}
+    35%{right: calc(100% - 50px); bottom: calc(100% - 10px);}
+    75%{right: -5%; bottom: calc(100% - 10px);}
+    95%{right: -5%; bottom: -10px;}
+    100%{right: 20%; bottom: -10px;}
 }
